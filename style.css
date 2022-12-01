@@ -14,7 +14,7 @@
     padding-left: 40px; */
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     /* Extra features */
     box-shadow: 0 4px 10px rgb(0 0 0 / 8%);
@@ -31,29 +31,35 @@
 
 .nav__ref{
     display:flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap:30px;
 }
 
 .nav__logo--img{
     scale: 0.35;
-    margin:auto;
+    /* margin:auto; */
 }
 
 .nav__ref--a {
     color:white;
 
 }
-
 .nav__ref--a:hover{
     scale: 120%;
-}
-
-.main-div{
-    width:400px;
+    color:rgb(217, 210, 73);
 }
 
 .main-screen {
-    clear: left;
-    width: 40%;
+    padding-top: 100px;
+}
+
+.main-screen__img{
+    width:100%;
+}
+
+.concept{
+    padding-top: 400px;
+    height: 300px;
+    width:100%
+    background-image url("./sources/hojas.jpg");
 }
