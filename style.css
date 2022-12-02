@@ -1,6 +1,8 @@
 *{
     margin:0;
     padding:0;
+    text-decoration: none;
+    list-style: none;
 }
 
 .nav{
@@ -59,21 +61,32 @@
     padding-top: 100px;
 }
 
+.main-block__background{
+    background-image: url("./sources/main_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}   
+
 .main-block__img{
     width:100%;
     height: 100%;
 }
 
-/* .concept-screen{
-
+/* .concept-block{
+    height: 100%;
 } */
 
 .concept-block__background{
     padding:0;
     margin:0;
-    height: 750px;
+    height: 800px;
+    width: 100%;
     background-image: url("./sources/hojas.jpg");
-    background-size:120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     display: flex;
     justify-content: center;
@@ -83,9 +96,15 @@
 .concept-block__square{
     color: rgb(31, 31, 31);
     width: 500px;
+    height: 30%;
     background-color: beige;
     padding: 30px;
     margin:20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .centered{
@@ -94,17 +113,18 @@
     justify-content: center;
 }
 
-.concept-square h1,p{
+.concept-block__square h1,p{
     margin-bottom:10px;
+    /* height: 100vmin;
+    width: 100vmin; */
 }
 
-/* .images-screen{
+/* .images-block{
     height: 400px;
 } */
 
-.grid-images__background{
-    padding:150px;
-    /* height: 100%; */
+.images-block__background{
+    padding:100px;
     background-image: url("./sources/muro.jpg");
     background-size:100%;
    
@@ -116,6 +136,6 @@
     align-content:space-between;
 }
 
-.grid-images__background img{
+.images-block__background img{
     max-width: 300px;
 }
