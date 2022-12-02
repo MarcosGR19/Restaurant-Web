@@ -141,3 +141,43 @@
 .images-block__background img{
     max-width: 300px;
 }
+
+/* .menu-block{
+    
+} */
+
+.menu-block__plain-background{
+    margin: 50px 75px 50px 75px;
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-block__nav{
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-block__nav h1{
+    margin-bottom: 20px;
+}
+
+.menu-block__nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.menu-block__background{
+    background-image: url("./sources/hojas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    
+}
