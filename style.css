@@ -55,11 +55,11 @@
     height: 100%;
 }
 
-.main-screen {
+.main-block {
     padding-top: 100px;
 }
 
-.main-screen__img{
+.main-block__img{
     width:100%;
     height: 100%;
 }
@@ -68,7 +68,7 @@
 
 } */
 
-.concept{
+.concept-block__background{
     padding:0;
     margin:0;
     height: 750px;
@@ -80,7 +80,7 @@
     align-items: center;
 }
 
-.concept-square{
+.concept-block__square{
     color: rgb(31, 31, 31);
     width: 500px;
     background-color: beige;
