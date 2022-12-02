@@ -49,8 +49,13 @@
     color:rgb(217, 210, 73);
 }
 
-.main-screen {
+.block{
     display: block;
+    min-width: 600px;
+    height: 100%;
+}
+
+.main-screen {
     padding-top: 100px;
 }
 
@@ -58,6 +63,10 @@
     width:100%;
     height: 100%;
 }
+
+/* .concept-screen{
+
+} */
 
 .concept{
     padding:0;
@@ -79,51 +88,34 @@
     margin:20px;
 }
 
+.centered{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .concept-square h1,p{
     margin-bottom:10px;
 }
 
-.grid-images{
+/* .images-screen{
+    height: 400px;
+} */
+
+.grid-images__background{
     padding:150px;
-    margin:0;
-    height: 50%;
+    /* height: 100%; */
     background-image: url("./sources/muro.jpg");
     background-size:100%;
    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:10px;
-}
-
-.grid-images__col1{
-    height: 300px;
-
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
     gap:10px;
+    align-content:space-between;
 }
 
-.grid-images__col2{
-    height: 500px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap:10px;
+.grid-images__background img{
+    max-width: 300px;
 }
-
-.grid-images__col3{
-    height: 300px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap:10px;
-}
-
-.grid-images img{
-    width:100%;
-    height: 100%;
-}
-
